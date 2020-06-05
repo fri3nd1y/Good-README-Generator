@@ -333,7 +333,7 @@ Creative Commons Notice
 
     Creative Commons may be contacted at https://creativecommons.org/.
 ## Badges 
-https://img.shields.io/github/followers/Fri3nd1y/Good-README-Generator
+https://img.shields.io/github/followers/Fri3nd1y/
 ## Tests 
 None.
 ## Questions 
