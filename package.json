@@ -1,0 +1,29 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Install to use the README Generator",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^7.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fri3nd1y/Good-README-Generator.git"
+  },
+  "keywords": [
+    "github",
+    "readme",
+    "generator",
+    "inquirer"
+  ],
+  "author": "Binh Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fri3nd1y/Good-README-Generator/issues"
+  },
+  "homepage": "https://github.com/fri3nd1y/Good-README-Generator#readme"
+}
