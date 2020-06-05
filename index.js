@@ -122,13 +122,13 @@ function ask() {
     let badge = "";
     switch (answers.badge) {
       case "license":
-        badge = ("https://img.shields.io/github/license/" + answers.userName + "/" + answers.projectTitle);
+        badge = ("![badge] (https://img.shields.io/github/license/" + answers.userName + "/" + answers.projectTitle + ")");
         break;
       case "github repo size":
-        badge = ("https://img.shields.io/github/repo-size/" + answers.userName + "/" + answers.projectTitle);
+        badge = ("![badge] (https://img.shields.io/github/repo-size/" + answers.userName + "/" + answers.projectTitle + ")");
         break;
       case "github followers":
-        badge = ("https://img.shields.io/github/followers/" + answers.userName + "/" + answers.projectTitle);
+        badge = ("![badge] (https://img.shields.io/github/followers" + answers.userName + "?style=social)");
     };
     logger.write('\n## Badges \n' + badge);
     logger.write('\n## Tests \n' + answers.tests);
